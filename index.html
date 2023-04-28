@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>運輸系統調適策略資料庫平台</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2 class="title">運輸系統調適策略資料庫平台</h2>
+    </div>
+    <div class="container">
+        <div id="search-div"><input type="text"  id="search-input" placeholder="輸入關鍵字搜尋..."></div>
+        <div class="collapse-container">
+            <button type="button" class="collapsible">Type of Item</button>
+            <div class="filter-menu">
+                <label><input type="checkbox" name="filter-item" value="國家調適計畫"> 國家調適計畫</label>
+                <label><input type="checkbox" name="filter-item" value="作業準則"> 作業準則</label>
+                <label><input type="checkbox" name="filter-item" value="調適指標"> 調適指標</label>
+            </div>
+            <button type="button" class="collapsible">Adaptation Sectors</button>
+            <div class="filter-menu">
+                <label><input type="checkbox" name="filter-item" value="能力建構"> 能力建構</label>
+                <label><input type="checkbox" name="filter-item" value="水環境"> 水環境</label>
+                <label><input type="checkbox" name="filter-item" value="土地利用"> 土地利用</label>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
